@@ -1,0 +1,11 @@
+# How do you add special character in HTML?
+
+To add special characters to an HTML document, insert an ampersand followed by a pound sign (&#) at the location where you wish the character to appear.
+
+To add a character, type the number of the appropriate code.
+
+To complete, type a semicolon(;).
+
+# What is HTML &copy?
+
+The copyright symbol in HTML is represented by the code. We can use © by the code for inserting into a webpage. 

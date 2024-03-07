@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse event examples</title>
+    <script>
+        function onClickFunction(){
+            alert("On click function");
+        }
+
+        function ondblClickFunction(){
+            alert("On dblclick function");
+        }
+
+        function onmouseDownFunction(){
+            alert("On mousedown function");
+        }
+
+        function onmouseOverFunction(){
+            document.body.style.background = "black";
+        }
+
+        function onmouseOutFunction(){
+            document.body.style.background = "white";
+        }
+
+        function onmouseMoveFunction(){
+            document.body.style.background = "blue";
+        }
+
+        function onmouseUpFunction(){
+            document.body.style.background = "pink";
+        }
+    </script>
+</head>
+<body>
+    <button onclick="onClickFunction()">onclick function</button>
+    
+    <button ondblclick="ondblClickFunction()">ondblclick function</button>
+
+    <button onmousedown="onmouseDownFunction()">onmousedown function</button>
+
+    <h1 onmouseover="onmouseOverFunction()" onmouseout="onmouseOutFunction()" >onmouseover function</h1>
+    <h1 onmouseout="onmouseOutFunction()" onmousemove="onmouseMoveFunction()">On mouse Move</h1>
+
+    <button onmouseup="onmouseUpFunction()">onMouseUp</button>
+</body>
+</html>

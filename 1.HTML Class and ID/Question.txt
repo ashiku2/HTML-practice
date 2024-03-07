@@ -1,0 +1,18 @@
+# What is the difference between div id and class?
+The main difference between div id and div class is that div id entails assigning an id attribute to a single div element in order to apply styling or interactivity to that element, whereas div class entails assigning the class attribute to a group of div elements in order to apply styling or interactivity to a group of div elements.
+
+
+# Can you have an ID and class in HTML element?
+Yes, every HTML element (such as div, input, nav, body and so on) can have both a "id" and a "class" at the same time. The main distinction is that "id" can only have one unique value, whereas "class" can have several values.
+
+
+# Can Id and class have same name in HTML?
+Yes, you can use the same name for both id and class because they have different meanings. The only issue with having the same name for the class and the id is readability and maintainability of the code. They can have the identical names, but because classes and ids are marked differently, the browser will output the right CSS.
+
+
+# What is a ID in HTML?
+The id global element specifies a unique identification for the entire page. Its purpose is to identify the element when linking, scripting, or styling it.
+
+
+# What is the use of class and id in HTML?
+An Id differs from a class in that it is only used to identify a particular element in our HTML. IDs are only used when a certain style needs be applied to a specific element on the page. A class, on the other hand, can be used to identify several HTML elements.

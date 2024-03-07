@@ -1,0 +1,21 @@
+# How do I create a layout page in HTML?
+
+Elements of HTML Layout:
+* <header> defines a document or section's heading.
+* <nav> A set of navigation link is defined.
+* <section> Defines a document's section.
+* <article> Defines a self-contained, autonomous content.
+* <aside> Defines content that isn't content like sidebar.
+
+
+# What is a layout in HTML?
+
+An HTML layout is a set of instructions for arranging web pages in a specific order. It's simple to explore and understand, and it makes use of HTML tags to customise site design aspects. HTML layouts are often responsive by default, so they will be appropriately formatted for mobile devices as well.
+
+# How do I create a HTML partition?
+
+The division tag is also known as the div tag. The div tag is an HTML tag that is used to divide material on a web page (text, images, header, footer, navigation bar, etc). The div tag has both an open and closed tag, therefore closing tag is required.
+
+# Why is HTML layout important?
+
+HTML layout elements are quite useful when creating a website. They aid web page designers in creating well-structured pages. The reading experience of web pages is improved when these layout elements are used correctly.

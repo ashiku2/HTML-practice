@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example of Keyboard events</title>
+    <script>
+        function keyDown(){
+            document.body.style.background = "red";
+        }
+
+        function keyPressed(){
+            document.body.style.background = "blue";
+        }
+
+        function keyUp(){
+            document.body.style.background = "yellow";
+        }
+    </script>
+</head>
+<body>
+    <form action="">
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter name" onkeydown="keyDown()">
+        <label for="">Phone</label>
+        <input type="text" placeholder="Enter Number" onkeydown="keyPressed()">
+        <label for="">Email</label>
+        <input type="text" placeholder="Enter Email" onkeydown="keyUp()">
+    </form>
+</body>
+</html>
