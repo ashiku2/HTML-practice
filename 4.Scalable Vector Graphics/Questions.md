@@ -35,3 +35,26 @@ The rect element is a basic SVG shape that draws rectangles with positions, widt
 # How do you make a hexagon in SVG?
 
 To draw a hexagon, use the svg element with the polygon element. We need to provide the x,y coordinates for 6 angles in order to draw a hexagon. Sets the color of hexagon's environment. The color of the hexagon stroke is specified.
+
+
+# How do you draw a polygon in SVG?
+
+SVG can be shown in most web browsers in the same way as PNG, GIF, and JPG can. Use the SVG polygon element to draw a polygon in HTML SVG. A graphic with at least three corners is created by using the polygon element. The x and y coordinates for each polygon corner are stored in the points attribute.
+
+# Ho do I create a line in SVG?
+
+The line element in SVG allows you to draw a straight line. Simply provide a line's endpoints x and y coordinates.
+
+
+# What is polyline SVG?
+The polyline SVG element is a basic shape in SVG that connects many points with straight lines. A polyline is commonly used to construct open designs because the last point does not need to be connected to the first.
+
+# What is polygon in SVG?
+Polygons are made up of straight lines and have a closed shape.
+
+
+# What is polygon points in SVG?
+
+Polygon points specifies a list of points, each represents a vertex of shape to be drawn. In the user coordinate system, each point is defined by an X and Y coordinate. A polygon is a closed form, which means the end and first points are connected.
+
+
