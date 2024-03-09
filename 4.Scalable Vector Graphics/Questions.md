@@ -58,3 +58,24 @@ Polygons are made up of straight lines and have a closed shape.
 Polygon points specifies a list of points, each represents a vertex of shape to be drawn. In the user coordinate system, each point is defined by an X and Y coordinate. A polygon is a closed form, which means the end and first points are connected.
 
 
+# How do I put text inside an SVG path?
+
+In SVG, there are three parts to placing text on a path. A <path> that must have an id and appear in the SVG document's defs section. A <text> element is a type of HTML element. Some characters included within a <textPath> element within the <text> element.
+
+# How do you add text to path tag?
+Enclose the text in a textPath element with a href attribute pointing to the path element to render text in the shape of a path.
+
+# How do I display text in SVG?
+
+The SVG <text> element creates a text-based graphics element. Like any other SVG graphics element, you can use a gradient, pattern, clipping path, mask, or filter on <text>. Text that is not contained within a <text> element in SVG is not rendered.
+
+
+# How does SVG define path?
+
+In the SVG collection of basic forms, the <path> element is the most powerful. It can be used to draw lines, curves, and arcs, among other things. Paths use many straight or curved lines to create complicated shapes. <Polyline> can be used to build complex shapes made entirely of straight lines.
+
+
+# How do I add text to SVG?
+
+The <text> element is used to render text in SVG. The simplest example of a <text> element is one that is placed using only the x and y attributes. By default, text is presented with a black fill and no outline.
+
