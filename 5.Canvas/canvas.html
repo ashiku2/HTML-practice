@@ -7,12 +7,37 @@
 </head>
 <body>
     <canvas id="myCanvas" width="300" height="100" style="border: 2px solid;"></canvas>
+
+    <canvas id="myCanvas3" width="300" height="200" style="border: 2px solid;"></canvas>
+    
+    <canvas id="myCanvas4" width="300" height="200" style="border: 2px solid;"></canvas>
     
     <script>
         var c = document.getElementById("myCanvas");
+        var c3=document.getElementById("myCanvas3");
+        var c3=document.getElementById("myCanvas3");
+        var c4 = document.getElementById("myCanvas4");
+
+
         var ctx = c.getContext("2d");
-        ctx.fillStyle = "#FF0000";
-        ctx.fillRect(0, 0, 200, 100);
+        var ctx3 = c3.getContext("2d");
+        var ctx4 = c4.getContext("2d");
+        // ctx.fillStyle = "#FF0000";
+        // ctx.fillRect(0, 0, 200, 100);
+
+        ctx.moveTo(0, 0);
+        ctx.lineTo(200, 100);
+        ctx.stroke();
+
+        ctx4.font = "40px Arial";
+        ctx4.fillText("LearnVern", 10, 50);
+        ctx4.strokeText("LearnVern", 10, 100);
+
+        ctx3.beginPath();
+        ctx3.arc(95, 50, 40, 0, 2*Math.PI);
+        ctx3.stroke();
+
+
     </script>
 </body>
 </html>
